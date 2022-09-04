@@ -80,6 +80,7 @@ h1, h2, h3{
     font-size: 24px;
     font-weight: 800;
     transition-duration: 400ms;
+    cursor:pointer;
 }
 
 #modal{
@@ -145,6 +146,7 @@ h1, h2, h3{
     margin-left: auto;
     background-color: teal;
     color: white;
+    cursor:pointer;
 }
 
 #modal_bg{
@@ -210,5 +212,6 @@ h1, h2, h3{
     outline: none;
     border-radius: 15px;
     margin-left: auto;
+    cursor:pointer;
 
 }
