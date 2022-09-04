@@ -64,7 +64,7 @@ h1, h2, h3{
     border: none;
     outline: none;
     font-size: 16px;
-
+    cursor: pointer;
 }
 .floating_button{
     width: 50px;
