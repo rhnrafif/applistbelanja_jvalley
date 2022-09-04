@@ -41,6 +41,16 @@ addlist_form.addEventListener("submit", (event)=>{
     //tangkap value dari masing - masing input field
     let barang = event.target.barang.value;
     let harga = event.target.harga.value;
+    
+     //memastikan value terisi dengan benar
+    if (!barang){
+    alert ("Mohon isi nama barang !")
+    return
+    }else if (!harga){
+    alert ("Mohon isi harga barang !")
+    return
+    }
+
 
     //push data ke array data list belanja
     data_list_belanja.push({
