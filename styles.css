@@ -57,6 +57,7 @@ h1, h2, h3{
 .btn_splash{
     height: 40px;
     width: 250px;
+    font-family: inherit;
     background-color: teal;
     color: white;
     border-radius: 15px;
@@ -122,6 +123,7 @@ h1, h2, h3{
 }
 
 .form_group input {
+    font-family: inherit;
     height: 40px;
     padding: 0 16px;
     border-radius: 15px;
@@ -134,6 +136,7 @@ h1, h2, h3{
 }
 
 #addlist_form button {
+    font-family: inherit;
     height: 40px;
     border-radius: 16px;
     border: none;
@@ -198,6 +201,7 @@ h1, h2, h3{
 }
 
 .card button{
+    font-family: inherit;
     height: 40px;
     width: 40%;
     background-color: teal;
